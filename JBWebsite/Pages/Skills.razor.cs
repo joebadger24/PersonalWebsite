@@ -25,7 +25,7 @@ namespace JBWebsite.Pages
             new GenericSkill
             {
                 Name = "C++",
-                ImgFilePath = "/Images/c++logo.png",
+                ImgFilePath = "/Images/cpplogo.png",
                 Description = "I have used C++ to program Arduinos and other microcontrollers as part of my undergraduate dissertation project."
             },
 
