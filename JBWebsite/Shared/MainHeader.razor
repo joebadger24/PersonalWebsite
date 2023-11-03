@@ -1,0 +1,26 @@
+﻿@namespace JBWebsite.Shared
+
+<div class="h-full bg-theme-colour-middle p-4 flex text-white">
+    <div class="w-1/2 flex items-center pl-4">
+        <h1 class="font-bold text-4xl">Joe Badger</h1>
+    </div>
+    <div class="w-1/2 flex justify-around items-center ">
+        <div class="text-xl HeaderLinks-@IsActive("/AboutMe")">
+            <a class="" href="/">About Me</a>
+        </div>
+        <div class="text-xl HeaderLinks-@IsActive("/Projects")">
+            <a href="/Projects">Projects</a>
+        </div>
+        <div class="text-xl HeaderLinks-@IsActive("/Skills")">
+            <a href="/Skills">Skills</a>
+        </div>
+    </div> 
+</div>
+
+
+@code{
+
+    [Inject] NavigationManager? NavigationManager { get; set; }
+
+    private string IsActive(string path) => NavigationManager.Uri.Contains(path) ? "tive" : "";
+}

@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/DownloadFiles/Badger_Joe_CV.pdf",
+      "PackagePath": "staticwebassets/DownloadFiles/Badger_Joe_CV.pdf"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/DownloadFiles/Dissertation.pdf",
+      "PackagePath": "staticwebassets/DownloadFiles/Dissertation.pdf"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/DownloadFiles/SystemC_SupportApp_Outline.pdf",
+      "PackagePath": "staticwebassets/DownloadFiles/SystemC_SupportApp_Outline.pdf"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/.DS_Store",
+      "PackagePath": "staticwebassets/Images/.DS_Store"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/Blazorlogo.png",
+      "PackagePath": "staticwebassets/Images/Blazorlogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/aspnetlogo.png",
+      "PackagePath": "staticwebassets/Images/aspnetlogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/c++logo.png",
+      "PackagePath": "staticwebassets/Images/c++logo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/csharplogo.png",
+      "PackagePath": "staticwebassets/Images/csharplogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/dissimg.png",
+      "PackagePath": "staticwebassets/Images/dissimg.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/dissimg2.png",
+      "PackagePath": "staticwebassets/Images/dissimg2.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/djangologo.png",
+      "PackagePath": "staticwebassets/Images/djangologo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/htmllogo.png",
+      "PackagePath": "staticwebassets/Images/htmllogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/p1.jpg",
+      "PackagePath": "staticwebassets/Images/p1.jpg"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/pythonlogo.png",
+      "PackagePath": "staticwebassets/Images/pythonlogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/pytorchlogo.png",
+      "PackagePath": "staticwebassets/Images/pytorchlogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/Images/systemc.png",
+      "PackagePath": "staticwebassets/Images/systemc.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/css/all.min.css",
+      "PackagePath": "staticwebassets/css/all.min.css"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/JBWebsite/JBWebsite/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.JBWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.JBWebsite.props",
+      "PackagePath": "build\\JBWebsite.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.JBWebsite.props",
+      "PackagePath": "buildMultiTargeting\\JBWebsite.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.JBWebsite.props",
+      "PackagePath": "buildTransitive\\JBWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

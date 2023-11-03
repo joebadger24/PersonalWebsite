@@ -1,0 +1,27 @@
+﻿@namespace JBWebsite.Shared
+
+
+<div class="py-4 flex">
+
+    @if (CurrentSkill != null)
+    {
+        <div class="w-24 h-24 mr-4 flex-none">
+            <img src=@CurrentSkill.ImgFilePath />
+        </div>
+        <div class="px-4">
+            <h3 class="font-bold pb-2">@CurrentSkill.Name</h3>
+            <p>@CurrentSkill.Description</p>
+        </div>
+     
+    }
+
+</div>
+
+
+
+
+@code {
+
+    [Parameter] public GenericSkill? CurrentSkill { get; set; }
+}
+

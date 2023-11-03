@@ -1,0 +1,28 @@
+﻿@namespace JBWebsite.Shared
+
+
+<div class="my-4 flex">
+
+    @if (CurrentProject != null)
+    {
+        <div class="w-1/5 flex-none">
+            <img src=@CurrentProject.ImgFilePath />
+        </div>
+        <div class="pr-4 pl-8">
+            <h3 class="font-bold pb-2">@CurrentProject.Name</h3>
+
+            <p class="pb-2">@CurrentProject.Description</p>
+
+            <a href=@CurrentProject.SummaryFilePath download class="text-sky-600">Download: @CurrentProject.SummaryFileName</a>
+        </div>
+
+    }
+
+</div>
+
+
+@code {
+
+    [Parameter] public GenericProject? CurrentProject { get; set; }
+}
+
