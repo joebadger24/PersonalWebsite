@@ -1,0 +1,11 @@
+@page "/Skills"
+@inherits SkillsBase
+
+<Contact></Contact>
+
+<div class="px-4">
+    @foreach (var skill in SkillList)
+    {
+    <SkillComponent CurrentSkill=skill></SkillComponent>
+    }
+</div>

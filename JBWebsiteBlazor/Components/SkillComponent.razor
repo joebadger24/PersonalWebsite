@@ -1,0 +1,20 @@
+@namespace JBWebsiteBlazor.Components
+
+<div class="my-4 row">
+    @if (CurrentSkill != null)
+    {
+    <div class="col-12 col-md-4 skills-img text-center mb-3 mb-md-0">
+        <img src=@CurrentSkill.ImgFilePath alt="" class="img-fluid"/>
+    </div>
+    <div class="col-12 col-md-8 pe-md-8 ps-md-4">
+        <h3 class="fw-bold pb-2">@CurrentSkill.Name</h3>
+        <p>@CurrentSkill.Description</p>
+    </div>
+
+    }
+</div>
+
+@code 
+{
+   [Parameter] public GenericSkill CurrentSkill { get; set; }
+}

@@ -1,0 +1,11 @@
+@page "/Projects"
+@inherits ProjectsBase
+
+<Contact></Contact>
+
+<div class="px-4">
+    @foreach (var project in ProjectList)
+    {
+    <ProjectComponent CurrentProject=project></ProjectComponent>
+    }
+</div>

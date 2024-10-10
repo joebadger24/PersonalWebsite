@@ -1,0 +1,19 @@
+@namespace JBWebsiteBlazor.Components
+
+<div class="my-4 row">
+    @if (CurrentProject != null)
+    {
+    <div class="col-12 col-md-4 projects-img text-center mb-3 mb-md-0">
+        <img src="@CurrentProject.ImgFilePath" alt="" class="img-fluid" />
+    </div>
+    <div class="col-12 col-md-8 pe-md-8 ps-md-4">
+        <h3 class="fw-bold pb-2">@CurrentProject.Name</h3>
+        <a href="@CurrentProject.SummaryFilePath" download class="download-text">Download: @CurrentProject.SummaryFileName</a>
+        <p class="pb-2">@CurrentProject.Description</p>
+    </div>
+    }
+</div>
+
+@code {
+[Parameter] public GenericProject CurrentProject { get; set; }
+}

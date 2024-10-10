@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LKmt5nXBCGM=",
+  "dgSpecHash": "pEnIU4KHhn0=",
   "success": true,
   "projectFilePath": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/JBWebsiteBlazor.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/joebadger/.nuget/packages/microsoft.netcore.platforms/8.0.0-preview.7.23375.6/microsoft.netcore.platforms.8.0.0-preview.7.23375.6.nupkg.sha512"
+  ],
   "logs": []
 }

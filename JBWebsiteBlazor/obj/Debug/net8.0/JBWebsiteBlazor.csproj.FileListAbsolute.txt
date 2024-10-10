@@ -19,10 +19,7 @@
 /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.JBWebsiteBlazor.props
 /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.JBWebsiteBlazor.props
 /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/staticwebassets.pack.json
-/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
-/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
 /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/scopedcss/bundle/JBWebsiteBlazor.styles.css
-/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/scopedcss/projectbundle/JBWebsiteBlazor.bundle.scp.css
 /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/JBWebsiteBlazor.dll
 /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/refint/JBWebsiteBlazor.dll
 /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/JBWebsiteBlazor.pdb
