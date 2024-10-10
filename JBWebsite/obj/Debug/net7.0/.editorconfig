@@ -1,5 +1,5 @@
 is_global = true
-build_property.TargetFramework = net7.0
+build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
@@ -9,53 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JBWebsite
 build_property.RootNamespace = JBWebsite
-build_property.ProjectDir = /Users/joebadger/Projects/JBWebsite/JBWebsite/
+build_property.ProjectDir = /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/joebadger/Projects/JBWebsite/JBWebsite
+build_property.MSBuildProjectDirectory = /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/App.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/MainLayout.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Pages/AboutMe.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Pages/AboutMe.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXRNZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Pages/Projects.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Pages/Projects.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvamVjdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Pages/Skills.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Pages/Skills.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2tpbGxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Shared/Contact.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Shared/Contact.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbnRhY3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Shared/MainHeader.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Shared/MainHeader.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5IZWFkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Shared/ProjectComponent.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Shared/ProjectComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Byb2plY3RDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Shared/SkillComponent.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Shared/SkillComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1NraWxsQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/_Imports.razor]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/joebadger/Projects/JBWebsite/JBWebsite/Pages/_Host.cshtml]
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsite/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
