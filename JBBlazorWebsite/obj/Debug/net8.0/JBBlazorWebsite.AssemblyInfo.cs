@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JBBlazorWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12f106e0bd9b5a6ae3e1fab241ae5b5a61a9f116")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90d1ca056340ad517db867e0cf6f559561fd7ff1")]
 [assembly: System.Reflection.AssemblyProductAttribute("JBBlazorWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JBBlazorWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
