@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/obj/Debug/net8.0/scopedcss/projectbundle/JBWebsiteBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets/JBWebsiteBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.JBWebsiteBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.JBWebsiteBlazor.props",
+      "PackagePath": "build\\JBWebsiteBlazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.JBWebsiteBlazor.props",
+      "PackagePath": "buildMultiTargeting\\JBWebsiteBlazor.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.JBWebsiteBlazor.props",
+      "PackagePath": "buildTransitive\\JBWebsiteBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
