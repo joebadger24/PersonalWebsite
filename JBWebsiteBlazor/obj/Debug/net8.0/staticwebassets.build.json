@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QQ4GKBWPqGoiEEZTLYe9zBf/VMYjbRxcUz1LAju6rpw=",
+  "Hash": "8Dl5OtI9/B+uQy2QZ/psETUEC/0cCXsKGjLbn6brwZw=",
   "Source": "JBWebsiteBlazor",
   "BasePath": "_content/JBWebsiteBlazor",
   "Mode": "Default",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot/DownloadFiles/BEng Dissertation.pdf"
     },
     {
-      "Identity": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/DownloadFiles/MSc Dissertaion.pdf",
+      "Identity": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/DownloadFiles/MSc Dissertation.pdf",
       "SourceId": "JBWebsiteBlazor",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/",
       "BasePath": "_content/JBWebsiteBlazor",
-      "RelativePath": "DownloadFiles/MSc Dissertaion.pdf",
+      "RelativePath": "DownloadFiles/MSc Dissertation.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/DownloadFiles/MSc Dissertaion.pdf"
+      "OriginalItemSpec": "wwwroot/DownloadFiles/MSc Dissertation.pdf"
     },
     {
       "Identity": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/DownloadFiles/Support App Summary.pdf",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/htmllogo.png"
+    },
+    {
+      "Identity": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/JoeImg.png",
+      "SourceId": "JBWebsiteBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/",
+      "BasePath": "_content/JBWebsiteBlazor",
+      "RelativePath": "Images/JoeImg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/JoeImg.png"
     },
     {
       "Identity": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/pythonlogo.png",

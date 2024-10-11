@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets/DownloadFiles/Badger_Joe_CV.pdf"
     },
     {
-      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/DownloadFiles/MSc Dissertaion.pdf",
-      "PackagePath": "staticwebassets/DownloadFiles/MSc Dissertaion.pdf"
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/DownloadFiles/MSc Dissertation.pdf",
+      "PackagePath": "staticwebassets/DownloadFiles/MSc Dissertation.pdf"
     },
     {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/DownloadFiles/Support App Summary.pdf",
@@ -19,6 +19,10 @@
     {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/Blazorlogo.png",
       "PackagePath": "staticwebassets/Images/Blazorlogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/JoeImg.png",
+      "PackagePath": "staticwebassets/Images/JoeImg.png"
     },
     {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/aspnetlogo.png",

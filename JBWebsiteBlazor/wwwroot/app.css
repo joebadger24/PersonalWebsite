@@ -120,6 +120,14 @@ a:hover {
     display: flex;
 }
 
+.HeaderName {
+    font-weight: bold;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    border: white 1px solid;
+    padding: .5rem 1rem;
+}
+
 .HeaderLinks-active {
     border-bottom: 3px solid darkgreen;
 }
