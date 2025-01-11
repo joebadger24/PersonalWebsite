@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/Images/JoeImg.png"
     },
     {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/ailogo.jpg",
+      "PackagePath": "staticwebassets/Images/ailogo.jpg"
+    },
+    {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/aspnetlogo.png",
       "PackagePath": "staticwebassets/Images/aspnetlogo.png"
     },
@@ -33,12 +37,16 @@
       "PackagePath": "staticwebassets/Images/avp_img.png"
     },
     {
-      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/cpplogo.png",
-      "PackagePath": "staticwebassets/Images/cpplogo.png"
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/bathlogo.jpeg",
+      "PackagePath": "staticwebassets/Images/bathlogo.jpeg"
     },
     {
-      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/csharplogo.png",
-      "PackagePath": "staticwebassets/Images/csharplogo.png"
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/cpp2logo.png",
+      "PackagePath": "staticwebassets/Images/cpp2logo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/csharp2logo.png",
+      "PackagePath": "staticwebassets/Images/csharp2logo.png"
     },
     {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/dissimg2.png",
@@ -49,16 +57,44 @@
       "PackagePath": "staticwebassets/Images/djangologo.png"
     },
     {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/headshot.jpeg",
+      "PackagePath": "staticwebassets/Images/headshot.jpeg"
+    },
+    {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/htmllogo.png",
       "PackagePath": "staticwebassets/Images/htmllogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/imp.jpg",
+      "PackagePath": "staticwebassets/Images/imp.jpg"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/ioslogo.png",
+      "PackagePath": "staticwebassets/Images/ioslogo.png"
     },
     {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/pythonlogo.png",
       "PackagePath": "staticwebassets/Images/pythonlogo.png"
     },
     {
-      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/pytorchlogo.png",
-      "PackagePath": "staticwebassets/Images/pytorchlogo.png"
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/pytorch2logo.png",
+      "PackagePath": "staticwebassets/Images/pytorch2logo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/rendel.jpeg",
+      "PackagePath": "staticwebassets/Images/rendel.jpeg"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/stewmel.png",
+      "PackagePath": "staticwebassets/Images/stewmel.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/swiftlogo.png",
+      "PackagePath": "staticwebassets/Images/swiftlogo.png"
+    },
+    {
+      "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/sysc.jpeg",
+      "PackagePath": "staticwebassets/Images/sysc.jpeg"
     },
     {
       "Id": "/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/wwwroot/Images/systemc.png",

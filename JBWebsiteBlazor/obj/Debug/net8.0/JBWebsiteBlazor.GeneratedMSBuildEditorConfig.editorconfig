@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/Components/AboutComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BYm91dENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/joebadger/Projects/PersonalWebsiteDeploy/JBWebsiteBlazor/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

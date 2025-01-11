@@ -1,11 +1,92 @@
 @page "/Skills"
 @inherits SkillsBase
+@rendermode InteractiveServer
 
 <Contact></Contact>
 
-<div class="px-4">
-    @foreach (var skill in SkillList)
-    {
-    <SkillComponent CurrentSkill=skill></SkillComponent>
-    }
+<div class="px-4 mx-4">
+    <div class="pb-2">
+        <h3 class="about-me-header pb-2">Languages</h3>
+        <div class="d-flex flex-wrap justify-content-start">
+            <SkillComponent
+                Title="C#"
+                Detail="Advanced"
+                Description="I am very experienced with C# and have proven this by developing multiple Blazor web applications, both in industry and for personal projects."
+                Image="/Images/csharp2logo.png"
+                DropDown="true"
+            ></SkillComponent>
+            <SkillComponent
+                Title="Python"
+                Detail="Advanced"
+                Description="I have been writing Python code since 2019, and am extremely proficient in all aspects of the language. I have built websites using Django, modelled complex structural engineering calculations, and built AI search algorithms and Machine Learning models."
+                Image="/Images/pythonlogo.png"
+                DropDown="true"
+            ></SkillComponent>
+            <SkillComponent
+                Title="Swift"
+                Detail="Intermediate"
+                Description="I taught myself Swift to be able to build an iOS app for the Apple Vision Pro. I am proficient with the fundamentals of the language."
+                Image="/Images/swiftlogo.png"
+                DropDown="true"
+            ></SkillComponent>
+            <SkillComponent
+                Title="C++"
+                Detail="Beginner"
+                Description="I have used C++ to program Arduinos and other microcontrollers as part of my undergraduate dissertation project."
+                Image="/Images/cpp2logo.png"
+                DropDown="true"
+            ></SkillComponent>
+        </div>
+    </div>
+    <div class="pb-2">
+        <h3 class="about-me-header py-2">Frameworks</h3>
+        <div class="d-flex flex-wrap justify-content-start">
+            <SkillComponent
+                Title="Blazor"
+                Detail="Advanced"
+                Description="I taught myself the core concepts of Blazor using courses on Pluralsight, and have since gone on to build multiple Blazor web applications as both personal projects and through working as a software engineer."
+                Image="/Images/Blazorlogo.png"
+                DropDown="true"
+            ></SkillComponent>
+            <SkillComponent
+                Title="Asp.Net"
+                Detail="Intermediate"
+                Description="Self-taught the basics of ASP.Net, and have built some simple MVC applications."
+                Image="/Images/aspnetlogo.png"
+                DropDown="true"
+            ></SkillComponent>
+            <SkillComponent
+                Title="iOS"
+                Detail="Beginner"
+                Description="As part of my university dissertation I designed a built an iOS app for the Apple Vision Pro. This can be seen in more detail on the Projects page."
+                Image="/Images/ioslogo.png"
+                DropDown="true"
+            ></SkillComponent>
+            <SkillComponent
+                Title="Django"
+                Detail="Beginner"
+                Description="Using William S. Vincent’s book ‘Django for Professionals’ I taught myself how to use Django as a framework to create web applications. This included creating a website and database for a bookshop."
+                Image="/Images/djangologo.png"
+                DropDown="true"
+            ></SkillComponent>
+        </div>
+    </div>
+    <div class="pb-2">
+        <h3 class="about-me-header py-2">Other</h3>
+        <div class="d-flex flex-wrap justify-content-start">
+            <SkillComponent
+                Title="Data Science"
+                Detail="Beginner"
+                Description="Three weeks completing the Codecademy ‘Data Science Career Path’ course which included Python, SQL, NumPy, Pandas, data visualisation, natural language processing, and machine learning. This valuable course taught me the basics of data science and analytics."
+                Image="/Images/pytorch2logo.png"
+                DropDown="true"
+            ></SkillComponent><SkillComponent
+                Title="AI"
+                Detail="Beginner"
+                Description="During my Master's degree in Computer Science I learned to build AI search algorithms and Machine Learning models. Including MDPs, Monte Carlo, Temporal Difference, Function Approximation, Depth and Breadth First, Supervised Learning, and Neural Networks."
+                Image="/Images/ailogo.jpg"
+                DropDown="true"
+            ></SkillComponent>
+        </div>
+    </div>
 </div>

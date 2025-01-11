@@ -1,5 +1,6 @@
 @page "/"
 @inherits AboutMeBase
+@rendermode InteractiveServer
 
 <Contact></Contact>
 
@@ -7,55 +8,67 @@
     <div class="pb-2">
         <h3 class="about-me-header">Description</h3>
         <p>
-            I am a full-stack software developer with industry experience in C#, .Net, Blazor, and Azure DevOps. 
-            I also have extensive experience with Python, including the development of Machine Learning and AI agents. 
+            I am a full-stack software developer with industry experience in C#, .Net, Blazor, and Azure DevOps.
+            I also have extensive experience with Python, including the development of Machine Learning and AI agents.
             I recently completed an MSc in Computer Science with Distinction, after graduating from the University of Bath with First Class Honours in Civil Engineering.
         </p>
     </div>
     <div class="pb-2">
-        <h3 class="about-me-header">Education</h3>
-        <div class="d-flex flex-wrap">
-            <div class="pe-5">
-                <h3 class="fw-bold text-lg pb-1">MSc Computer Science (Distinction)</h3>
-                <h3 class="pb-2 text-m">Univeristy of Bath (Sep 2023 - Sep 2024)</h3>
-
-                <h3 class="fw-bold text-lg pb-1">BEng Civil Engineering BEng (First Class)</h3>
-                <h3 class="pb-2 text-m">Univeristy of Bath (Sep 2019 - Jun 2023)</h3>
-            </div>
-            <div>
-                <h3 class="fw-bold text-lg pb-1">Stewart's Melville College - (2005 - 2019)</h3>
-                <h3 class="pb-2 text-m">Advanced Highers - A* Mathematics, A* Mathematics of Mechanics, A Physics</h3>
-                <h3 class="pb-2 text-m">Highers - A* Mathematics, A* Physics, A* Geography, A* Latin, A English</h3>
-                <h3 class="pb-2 text-m">National 5's - 6 A*, 2 A</h3>
-            </div>
+        <h3 class="about-me-header pb-2">Education</h3>
+        <div class="d-flex flex-wrap justify-content-start">
+            <AboutComponent
+                Title="MSc Computer Science (Distinction)"
+                Detail="Univeristy of Bath (Sep 2023 - Sep 2024)"
+                Image="/Images/bathlogo.jpeg"
+            ></AboutComponent>
+            <AboutComponent
+                Title="BEng Civil Engineering (First Class)"
+                Detail="Univeristy of Bath (Sep 2019 - Jun 2023)"
+                Image="/Images/bathlogo.jpeg"
+            ></AboutComponent>
+            <AboutComponent
+                Title="School Education"
+                Detail="Stewart's Melville College - (2005 - 2019)"
+                Image="/Images/stewmel.png"
+                DropDown="true"
+                Description="Advanced Highers - A* Mathematics, A* Mathematics of Mechanics, A Physics | Highers - A* Mathematics, A* Physics, A* Geography, A* Latin, A English | National 5's - 6 A*, 2 A"
+            ></AboutComponent>
         </div>
     </div>
     <div class="pb-2">
-        <h3 class="about-me-header">Work Experience</h3>
-        <h3 class="fw-bold text-lg">Junior Software Developoer</h3>
-        <h3 class="text-m">IMP Software - (Sep 2024 - Present)</h3>
-        <p class="pb-6">
-            Currently working at IMP Software (www.impsoftware.co.uk) as junior software developer. 
-        </p>
-        <h3 class="fw-bold text-lg">Software Engineer Summer Internship</h3>
-        <h3 class="text-m">System C Healthcare Ltd - (Jun 2023 - Sep 2023)</h3>
-        <p class="pb-6">
-            Worked at System C Healthcare Ltd (www.systemc.com) as a software engineer. Collaborated with both the Interfacing and Research & Development departments.
-            Within Interfacing, I worked as part of a SCRUM team to fix bugs in the existing client interface.
-            Worked with R+D to develop a Blazor web application to act as a tool for the support team.
-            Responsible for developing the front and back end of the web app, which connected to a web service that was built by the lead engineer.
-            Met the requirements of the support team, and the specification set out by the lead engineer.
-            This internship was an excellent first experience in software engineering and helped to improve my technical skills and understanding.
-        </p>
-        <h3 class="fw-bold text-lg">Undergraduate Civil Engineer Placement</h3>
-        <h3 class="text-m">Rendel Ltd - (Aug 2021 - Jul 2022)</h3>
-        <p class="pb-6">
-            Worked at Rendel Ltd (www.rendel-ltd.com) as an undergraduate civil engineer.
-            Worked as part of the bridges team, most of the year working on the category three checks of the viaducts that are being built as part of HS2 Project.
-            This role involved creating 3D models of the bridges for Finite Element Analysis, using Excel spreadsheets to analyse, and perform calculations on structural
-            members and writing Python scripts that would help to input thousands of rows of data into modelling software. This placement was extremely beneficial to my
-            problem-solving skills and confirmed to me that my passions and skill lend themselves greatly to more of a technology-based role.
-        </p>
+        <h3 class="about-me-header py-2">Work Experience</h3>
+        <div class="d-flex flex-wrap justify-content-start">
+            <AboutComponent 
+                Title="Junior Software Developer" 
+                Detail="IMP Software - (Sep 2024 - Present)" 
+                Description="Currently working at IMP Software (www.impsoftware.co.uk) as junior software developer."
+                Image="/Images/imp.jpg"
+                DropDown="true"
+            ></AboutComponent>
+            <AboutComponent
+                Title="Software Engineer Internship"
+                Detail="System C Healthcare - (Jun - Sep 2023)"
+                Description="Worked at System C Healthcare Ltd (www.systemc.com) as a software engineer. Collaborated with both the Interfacing and Research & Development departments.
+                            Within Interfacing, I worked as part of a SCRUM team to fix bugs in the existing client interface.
+                            Worked with R+D to develop a Blazor web application to act as a tool for the support team.
+                            Responsible for developing the front and back end of the web app, which connected to a web service that was built by the lead engineer.
+                            Met the requirements of the support team, and the specification set out by the lead engineer.
+                            This internship was an excellent first experience in software engineering and helped to improve my technical skills and understanding."
+                Image="/Images/sysc.jpeg"
+                DropDown="true"
+            ></AboutComponent>
+            <AboutComponent
+                Title="Civil Engineer Placement"
+                Detail="Rendel Ltd - (Aug 2021 - Jul 2022)"
+                Description="Worked at Rendel Ltd (www.rendel-ltd.com) as an undergraduate civil engineer.
+                            Worked as part of the bridges team, most of the year working on the category three checks of the viaducts that are being built as part of HS2 Project.
+                            This role involved creating 3D models of the bridges for Finite Element Analysis, using Excel spreadsheets to analyse, and perform calculations on structural
+                            members and writing Python scripts that would help to input thousands of rows of data into modelling software. This placement was extremely beneficial to my
+                            problem-solving skills and confirmed to me that my passions and skill lend themselves greatly to more of a technology-based role."
+                Image="/Images/rendel.jpeg"
+                DropDown="true"
+            ></AboutComponent>
+        </div>
     </div>
 </div>
 
