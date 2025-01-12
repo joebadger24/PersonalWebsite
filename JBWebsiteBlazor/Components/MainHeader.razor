@@ -1,18 +1,24 @@
 @namespace JBWebsiteBlazor.Components
 
-<div class="h-100 bg-theme-colour-middle p-4 d-flex text-white">
-    <div class="w-50 d-flex align-items-center ps-4">
-        <h1 class="p-2 border border-2 border-white">JB</h1>
+<div class="h-100 bg-theme-colour-middle p-4 d-flex text-white justify-content-between">
+    <div class="d-flex align-items-center">
+        <h1 class="p-2 border border-2 border-white m-0">JB</h1>
     </div>
-    <div class="pe-4 text-2xl w-50 d-flex justify-content-around align-items-center">
-        <div class="px-2 HeaderLinks-@(IsActive("/"))">
-            <a href="/">About</a>
+    <div class="text-2xl d-flex justify-content-around align-items-center">
+        <div class="px-2">
+            <div class="px-2 HeaderLinks-@(IsActive("/"))">
+                <a href="/">About</a>
+            </div>
         </div>
-        <div class="px-2 HeaderLinks-@(IsActive("/Projects"))">
-            <a href="/Projects">Projects</a>
+        <div class="px-2">
+            <div class="px-2 HeaderLinks-@(IsActive("/Projects"))">
+                <a href="/Projects">Projects</a>
+            </div>
         </div>
-        <div class="px-2 HeaderLinks-@(IsActive("/Skills"))">
-            <a href="/Skills">Skills</a>
+        <div class="px-2">
+            <div class="px-2 HeaderLinks-@(IsActive("/Skills"))">
+                <a href="/Skills">Skills</a>
+            </div>
         </div>
     </div>
 </div>
